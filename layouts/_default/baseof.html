@@ -10,7 +10,7 @@
 
 	<link rel="icon" href="{{ .Site.BaseURL }}icons/sun.svg">
 
-	{{ $style := resources.Get "/css/style.scss" | resources.ToCSS }}
+	{{ $style := resources.Get "/css/style.css" | resources.ToCSS }}
 	<link rel="stylesheet" href="{{ $style.Permalink }}">
 
 	{{- partial "feeds" . -}}
@@ -19,7 +19,6 @@
 
 </head>
 <body id="{{ .Title | urlize }}">
-	{{ partial "battery" . }}
 	{{ partial "header" . }}
 	{{ block "main" . }}{{ end }}
 	{{ partial "footer" . }}
