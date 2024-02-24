@@ -1,8 +1,8 @@
 ---
-title: "Article Template: How to write articles and translations in Markdown for Hugo?"
+title: "Template de Artigo: como escrever artigos e traduções em Markdown para o Hugo?"
 date: ""
-summary: "This page goes over the specific markdown syntax that should be used to write articles, add translations and comments in the new hugo solar web. "
-lang: "en"
+summary: "Esta página vai sobre a sintaxe específica de markdown que deve ser usada para escrever artigos, adicionar traduções e comentários no novo tema Hugo Lunar"
+lang: "pt"
 authors: ["Marie Verdeil" ]
 categories: ["High-tech Problems"]
 tags: [""]
@@ -12,7 +12,7 @@ featured_image: "image.png"
 ---
 
 {{% figure src="image.png" %}} 
-A screenshot of the markdown file for this page.
+Uma captura de tela do arquivo markdown desta página
 {{% /figure %}}
 
 ## Table of Contents
